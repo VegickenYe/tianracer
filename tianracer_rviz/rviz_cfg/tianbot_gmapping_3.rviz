@@ -61,15 +61,15 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        tianracer_01/base_footprint:
+        tianracer_02/base_footprint:
           Value: true
-        tianracer_01/base_link:
+        tianracer_02/base_link:
           Value: true
-        tianracer_01/camera_link:
+        tianracer_02/camera_link:
           Value: true
-        tianracer_01/imu_link:
+        tianracer_02/imu_link:
           Value: true
-        tianracer_01/laser:
+        tianracer_02/laser:
           Value: true
         map:
           Value: true
@@ -82,14 +82,14 @@ Visualization Manager:
       Show Names: true
       Tree:
         map:
-          tianracer_01/odom:
-            tianracer_01/base_footprint:
-              tianracer_01/base_link:
-                tianracer_01/camera_link:
+          tianracer_02/odom:
+            tianracer_02/base_footprint:
+              tianracer_02/base_link:
+                tianracer_02/camera_link:
                   {}
-                tianracer_01/imu_link:
+                tianracer_02/imu_link:
                   {}
-                tianracer_01/laser:
+                tianracer_02/laser:
                   {}
       Update Interval: 0
       Value: true
@@ -118,7 +118,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.05000000074505806
       Style: Flat Squares
-      Topic: /tianracer_01/scan
+      Topic: /tianracer_02/scan
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -129,7 +129,7 @@ Visualization Manager:
       Draw Behind: false
       Enabled: true
       Name: Map
-      Topic: /tianracer_01/map
+      Topic: /tianracer_02/map
       Unreliable: false
       Use Timestamp: false
       Value: true
@@ -153,7 +153,7 @@ Visualization Manager:
       Radius: 0.029999999329447746
       Shaft Diameter: 0.10000000149011612
       Shaft Length: 0.10000000149011612
-      Topic: /tianracer_01/move_base/TrajectoryPlannerROS/global_plan
+      Topic: /tianracer_02/move_base/TrajectoryPlannerROS/global_plan
       Unreliable: false
       Value: true
     - Angle Tolerance: 0.10000000149011612
@@ -187,7 +187,7 @@ Visualization Manager:
         Shaft Length: 0.20000000298023224
         Shaft Radius: 0.05000000074505806
         Value: Arrow
-      Topic: /tianracer_01/odometry/filtered
+      Topic: /tianracer_02/odometry/filtered
       Unreliable: false
       Value: true
     - Angle Tolerance: 0.10000000149011612
@@ -221,7 +221,7 @@ Visualization Manager:
         Shaft Length: 0.20000000298023224
         Shaft Radius: 0.05000000074505806
         Value: Arrow
-      Topic: /tianracer_01/odom
+      Topic: /tianracer_02/odom
       Unreliable: false
       Value: false
     - Alpha: 1
@@ -237,7 +237,7 @@ Visualization Manager:
       Shaft Length: 0.23000000417232513
       Shaft Radius: 0.009999999776482582
       Shape: Arrow (Flat)
-      Topic: /tianracer_01/particlecloud
+      Topic: /tianracer_02/particlecloud
       Unreliable: false
       Value: true
   Enabled: true
@@ -256,14 +256,14 @@ Visualization Manager:
     - Class: rviz/Measure
     - Class: rviz/SetInitialPose
       Theta std deviation: 0.2617993950843811
-      Topic: /tianracer_01/initialpose
+      Topic: /tianracer_02/initialpose
       X std deviation: 0.5
       Y std deviation: 0.5
     - Class: rviz/SetGoal
-      Topic: /tianracer_01/move_base_simple/goal
+      Topic: /tianracer_02/move_base_simple/goal
     - Class: rviz/PublishPoint
       Single click: true
-      Topic: /tianracer_01/clicked_point
+      Topic: /tianracer_02/clicked_point
   Value: true
   Views:
     Current:
